@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class exSquentialAndBinary {
+    
     private static int sequentialSearch(int[] array, int target) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == target) {

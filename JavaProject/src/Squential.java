@@ -20,6 +20,7 @@ public class Squential {
         for (int i : data) {
             System.out.print(i + " ");
         }
+        
 
         // Input angka yang dicari
         Scanner scanner = new Scanner(System.in);

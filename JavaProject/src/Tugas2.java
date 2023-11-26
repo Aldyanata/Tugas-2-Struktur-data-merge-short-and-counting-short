@@ -99,6 +99,8 @@ public class Tugas2 {
 
     System.out.println();    
     System.out.println();
+    
   }
+  
 
 }
