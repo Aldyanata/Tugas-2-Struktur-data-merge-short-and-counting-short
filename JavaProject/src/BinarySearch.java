@@ -4,13 +4,13 @@ import java.util.Scanner;
 public class BinarySearch {
     public static void main(String[] args) {
         // Data array (pastikan array diurutkan)
-        int[] dataArray = {10, 24, 36, 45, 50}; // Nilai a1 sampai a5
+        int[] dataArray = { 10, 24, 36, 45, 50 }; // Nilai a1 sampai a5
         Arrays.sort(dataArray);
         System.out.print("Data: ");
         for (int i : dataArray) {
             System.out.print(i + " ");
         }
-        
+
         // Angka yang dicari
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nMasukkan angka yang dicari: ");
